@@ -13,7 +13,8 @@
     }
   },
   "extends": [
-    "eslint:recommended"
+    "eslint:recommended",
+    "plugin:react/recommended"
   ],
   "ignorePatterns": [
     "dist/**"

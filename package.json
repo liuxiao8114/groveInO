@@ -24,6 +24,7 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^3.6.0",
     "eslint": "^7.2.0",
+    "eslint-plugin-react": "^7.26.0",
     "html-webpack-plugin": "^4.3.0",
     "jest": "^27.1.0",
     "style-loader": "^1.2.1",
