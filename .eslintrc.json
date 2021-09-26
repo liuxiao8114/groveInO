@@ -1,0 +1,25 @@
+{
+  "env": {
+    "node": true,
+    "jest": true,
+    "browser": true,
+    "es2020": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "ignorePatterns": [
+    "dist/**"
+  ],
+  "rules": {
+    "semi": "off",
+    "no-unused-vars": "warn"
+  }
+}
