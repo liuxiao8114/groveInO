@@ -5,7 +5,8 @@ module.exports = {
   mode: 'development',
   entry: {
     app: './src/index.js',
-    reactApp: './src/index.react.js',
+    reactApp: './src/index.example.js',
+    //reactApp: './src/index.react.js',
     // print: './src/print.js',
   },
   output: {
