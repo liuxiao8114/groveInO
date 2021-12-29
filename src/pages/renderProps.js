@@ -33,18 +33,18 @@ function CallDynamicMouseTracker() {
   )
 }
 
-// function CallStaticMouseTracker() {
-//   return e(
-//     'div',
-//     null,
-//     e('h1', null, 'Move the mouse around!'),
-//     e(Cat, { x: 1, y: 2, }),
-//     e(
-//       Mouse,
-//       { render: ({ x, y }) => `The current mouse position is (${x}, ${y})` },
-//     ),
-//   )
-// }
+function CallStaticMouseTracker() {
+  return e(
+    'div',
+    null,
+    e('h1', null, 'Move the mouse around!'),
+    e(Cat, { x: 1, y: 2, }),
+    e(
+      Mouse,
+      { render: ({ x, y }) => `The current mouse position is (${x}, ${y})` },
+    ),
+  )
+}
 
 function Mouse(props) {
   const [ x, setX ] = useState(0)

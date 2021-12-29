@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 
+import Sign from './components/sign'
+import Button from './components/button'
+import Board from './components/starter'
+import Game from './components/lineBoard'
+import Arkham from './components/arkham'
+
 const e = React.createElement
 
 function App() {
@@ -13,16 +19,9 @@ function App() {
   return e(
     'div',
     null,
-    e('h2', null, 'Hello, React world.'),
-    e(ButtonTrigger, { counter, handleClick }),
-  )
-}
-
-function Button(props) {
-  return e(
-    'button',
-    { style: { background: 'red' }, onClick: props.handleClick, },
-    props.children,
+    // e('h2', null, 'Hello, React world.'),
+    // e(ButtonTrigger, { counter, handleClick }),
+    <Game />
   )
 }
 
